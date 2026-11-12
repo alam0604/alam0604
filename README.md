@@ -60,7 +60,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 ### read this...
 
 <details>
-  <summary>pssst... there's a little something for you ♡</summary>
+  <summary>pssst... there's a little something for you</summary>
 
 <br/>
 If you've made it this far, here's a little reminder:</br>
@@ -76,7 +76,7 @@ Here's a tiny cookie for your journey 🍪
 
 ### ✨ a little magic, a little code, and a lot of curiosity.
 
-*thanks for visiting my side of Github* ♡
+*thanks for visiting my side of Github*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=100&section=footer" width="100%" />
 
