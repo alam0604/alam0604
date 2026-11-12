@@ -1,10 +1,74 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" width="600" height="180" viewBox="0 0 600 180">
-  <rect width="600" height="180" rx="18" fill="#241B30"/>
-  <circle cx="25" cy="25" r="6" fill="#FF7777"/>
-  <circle cx="47" cy="25" r="6" fill="#F4C66D"/>
-  <circle cx="69" cy="25" r="6" fill="#8BD6A3"/>
-  <text x="30" y="85" fill="#D7B6FF" font-size="22" font-family="sans-serif" font-weight="bold">Hello, fellow explorer! ♡</text>
-  <text x="30" y="120" fill="#C9A7EB" font-size="15" font-family="monospace">Azure Data Engineer | Databricks | PySpark</text>
-  <text x="30" y="150" fill="#F5D39A" font-size="13" font-family="sans-serif">Building something magical ✨</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="490" viewBox="0 0 720 490">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#30213F"/>
+      <stop offset="100%" stop-color="#171321"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#49315E"/>
+      <stop offset="100%" stop-color="#30213F"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#DDBBFF"/>
+      <stop offset="100%" stop-color="#A98AEF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main window -->
+  <rect width="720" height="490" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="488" rx="21" fill="none" stroke="#8B6AA7" stroke-opacity=".55"/>
+
+  <!-- Window header -->
+  <path d="M22 0 H698 Q720 0 720 22 V62 H0 V22 Q0 0 22 0Z" fill="url(#header)"/>
+  <circle cx="28" cy="30" r="7" fill="#FF7D93"/>
+  <circle cx="52" cy="30" r="7" fill="#FFD27A"/>
+  <circle cx="76" cy="30" r="7" fill="#8DDBA5"/>
+  <text x="360" y="35" text-anchor="middle" fill="#E6CFFF" font-size="15" font-family="monospace">✧ alam0604@little-universe ✧</text>
+  <text x="685" y="35" text-anchor="end" fill="#BBA1D7" font-size="12" font-family="monospace">zsh</text>
+
+  <!-- Welcome -->
+  <text x="35" y="99" fill="#D9B8FF" font-family="monospace" font-size="13">❯ hello, fellow explorer!</text>
+  <text x="35" y="137" fill="#F4E9FF" font-family="sans-serif" font-size="28" font-weight="bold">A little developer universe ♡</text>
+  <text x="35" y="160" fill="#BDAACB" font-family="sans-serif" font-size="13">Where data meets curiosity and code meets creativity.</text>
+
+  <path d="M35 181 H685" stroke="#644A77" stroke-dasharray="4 6"/>
+
+  <!-- Identity -->
+  <text x="35" y="210" fill="#C9A7EB" font-family="monospace" font-size="13">❯ 01 / WHOAMI</text>
+  <text x="35" y="241" fill="#FFFFFF" font-family="sans-serif" font-size="21" font-weight="bold">Azure Data Engineer</text>
+  <text x="35" y="264" fill="#BDAACB" font-family="sans-serif" font-size="13">3.5+ years · Building scalable data solutions</text>
+
+  <path d="M35 283 H685" stroke="#644A77" stroke-dasharray="4 6"/>
+
+  <!-- Tech stack -->
+  <text x="35" y="310" fill="#C9A7EB" font-family="monospace" font-size="13">❯ 02 / MY_STACK</text>
+
+  <g font-family="sans-serif" font-size="13" font-weight="bold">
+    <rect x="35" y="325" width="94" height="30" rx="9" fill="#564071"/>
+    <text x="82" y="345" fill="#F6EFFF" text-anchor="middle">Azure</text>
+
+    <rect x="139" y="325" width="115" height="30" rx="9" fill="#654A85"/>
+    <text x="196" y="345" fill="#FFFFFF" text-anchor="middle">Databricks</text>
+
+    <rect x="264" y="325" width="94" height="30" rx="9" fill="#77589B"/>
+    <text x="311" y="345" fill="#FFFFFF" text-anchor="middle">PySpark</text>
+
+    <rect x="368" y="325" width="75" height="30" rx="9" fill="#8065A4"/>
+    <text x="405" y="345" fill="#FFFFFF" text-anchor="middle">SQL</text>
+
+    <rect x="453" y="325" width="111" height="30" rx="9" fill="#594275"/>
+    <text x="508" y="345" fill="#F6EFFF" text-anchor="middle">Delta Lake</text>
+  </g>
+
+  <path d="M35 374 H685" stroke="#644A77" stroke-dasharray="4 6"/>
+
+  <!-- Certifications -->
+  <text x="35" y="401" fill="#C9A7EB" font-family="monospace" font-size="13">❯ 03 / CERTIFICATIONS</text>
+  <text x="35" y="429" fill="#A9E6B6" font-family="sans-serif" font-size="13">✓ Databricks Certified Associate</text>
+  <text x="365" y="429" fill="#A9E6B6" font-family="sans-serif" font-size="13">✓ Databricks Certified Professional</text>
+
+  <!-- Footer -->
+  <text x="35" y="469" fill="#E1C8FF" font-family="monospace" font-size="12">❯ current_mood: building something magical ✧</text>
+  <text x="685" y="469" text-anchor="end" fill="#BDAACB" font-family="monospace" font-size="11">∞ curious</text>
 </svg>
