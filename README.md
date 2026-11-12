@@ -81,5 +81,7 @@ Here's a tiny cookie for your journey 🍪
 <img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=100&section=footer" width="100%" />
 
 </div>
-
+<div align="center">
+  <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
+</div>
 
