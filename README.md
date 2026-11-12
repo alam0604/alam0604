@@ -1,12 +1,3 @@
-<p align="center">
-  <img
-    src="https://alam-profile-counter.alamsahban101.workers.dev/"
-    width="100%"
-    alt="A little lilac corner of GitHub"
-  />
-</p>
-
-
 
 <div align="center">
 
@@ -24,6 +15,14 @@
 </div>
 
 ---
+<p align="center">
+  <img
+    src="https://alam-profile-counter.alamsahban101.workers.dev/"
+    width="100%"
+    alt="A little lilac corner of GitHub"
+  />
+</p>
+
 
 ### Me..?
 
@@ -34,10 +33,6 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 - ⚡ Building scalable ETL/ELT pipelines
 - 🪄 Exploring Spark optimization and lakehouse architecture
 - 🌱 Always learning something new
-
-<div align="center">
-  <img src="assets/lilac-terminal.svg" width="650"/>
-</div>
 
 ### 🛠️ things I build with
 
