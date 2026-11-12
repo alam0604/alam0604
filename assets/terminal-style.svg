@@ -39,7 +39,7 @@
   </g>
 
   <!-- Hero -->
-  <text x="55" y="75" fill="#CDA9F5" font-family="monospace" font-size="15">✦ WELCOME TO MY LITTLE CORNER OF THE INTERNET ✦</text>
+  <text x="55" y="75" fill="#CDA9F5" font-family="monospace" font-size="15">✦ WELCOME TO MY Githuub vi ✦</text>
   <text x="55" y="139" fill="#FFF2FF" font-family="sans-serif" font-size="43" font-weight="bold">hello, world! I'm Alam <tspan fill="#D2A9FF">✧</tspan></text>
   <text x="57" y="178" fill="#CBB9DA" font-family="sans-serif" font-size="18">Azure Data Engineer · Databricks enthusiast · curious by nature</text>
 
