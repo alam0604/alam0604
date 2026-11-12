@@ -8,7 +8,7 @@
 
 ### ✧ apparently my life is all about ✧
 
-**Data Engineer | Azure | Databricks | PySpark**
+**Data Engineering | Azure | Databricks | PySpark**
 
 *Building things, solving problems, and finding magic in data.*
 
@@ -79,7 +79,7 @@ Here's a tiny cookie for your journey 🍪
 
 ### ✨ a little magic, a little code, and a lot of curiosity.
 
-*thanks for visiting my side of Github*
+*thanks for visiting my side of the Github*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=100&section=footer" width="100%" />
 
