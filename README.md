@@ -1,1 +1,4 @@
-Hi there !...How you doin..? ![Profile Views](https://komarev.com/ghpvc/?username=alam0604&label=Profile%20Views&color=blueviolet&style=for-the-badge)
+<p align="center">
+  <img src="https://alam-profile-counter.alamsahban101.workers.dev/"
+       alt="My Profile Views"/>
+</p>
