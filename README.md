@@ -1,4 +1,7 @@
-
+<div align="center">
+  <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
+</div>
+</br>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=180&section=header&text=hello,%20fellow%20explorer!&fontSize=34&fontColor=74529B&animation=fadeIn&fontAlignY=38&desc=a%20tiny%20universe%20built%20with%20code%20%E2%9C%A7&descAlignY=60&descSize=15" width="100%" />
@@ -81,7 +84,5 @@ Here's a tiny cookie for your journey 🍪
 <img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=100&section=footer" width="100%" />
 
 </div>
-<div align="center">
-  <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
-</div>
+
 
