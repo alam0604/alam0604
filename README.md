@@ -40,6 +40,39 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 
 <br clear="right"/>
 
+<div align="center">
+<img src="assets/me-pipeline.svg" width="100%" alt="An animated Bronze to Silver to Gold pipeline: raw ideas, curiosity, learning, magic"/>
+</div>
+
+
+## the schema of me
+
+```sql
+CREATE TABLE IF NOT EXISTS sahida (
+    role                STRING     DEFAULT 'Data Engineer',
+    experience_years    DECIMAL    DEFAULT 3.5,          -- and counting
+    home_cloud          STRING     DEFAULT 'Azure',
+    fav_tools           ARRAY<STRING> DEFAULT ['Databricks', 'PySpark', 'SQL', 'MS Fabric'],
+    superpower          STRING     DEFAULT 'making slow jobs fast',
+    currently_exploring STRING     DEFAULT 'lakehouse architecture',
+    curiosity_level     BIGINT     DEFAULT 9223372036854775807,  -- max value, obviously
+    nulls_tolerated     INT        DEFAULT 0
+)
+USING DELTA
+COMMENT 'built with a little magic ✧';
+```
+
+
+## optimization wins
+
+<!-- ✏️ swap these for your real wins + numbers -->
+| 🐢 before | ✨ what I did | 🚀 after |
+| :--- | :--- | :--- |
+| a job crawling through skewed joins | salting + AQE + broadcast joins | runtime cut from **XX min → YY min** |
+| full table scans on every run | partition pruning + Z-ordering on Delta | **XX% less data scanned** |
+| thousands of tiny files | `OPTIMIZE` + auto compaction | **faster reads, happier clusters** |
+| full reloads every night | incremental loads with `MERGE` | **XX% lower compute cost** |
+
 
 ## 🛠️ things I build with
 
@@ -63,7 +96,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 </div>
 
 
-## 🐾 let's playy (take a break from data engineering)
+## 🐾 a tiny offline break
 
 <div align="center">
 <img src="assets/meow-run.svg" width="100%" alt="A little pixel cat running and jumping over cacti"/>
@@ -73,7 +106,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 ## read this...
 
 <details>
-<summary><b>pssst... there's a little something for you</b></summary>
+<summary><b>pssst... there's a little something for you</b> 🎀</summary>
 
 <br/>
 
@@ -93,7 +126,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 
 ### ✨ a little magic, a little code, and a lot of curiosity.
 
-*thanks for visiting my side of GitHub* 
+*thanks for visiting my side of GitHub* 💜
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A7EB,50:E6D5F7,100:F3E8FF&height=110&section=footer" width="100%" />
 
