@@ -68,10 +68,10 @@ COMMENT 'built with a little magic ✧';
 <!-- ✏️ swap these for your real wins + numbers -->
 | 🐢 before | ✨ what I did | 🚀 after |
 | :--- | :--- | :--- |
-| a job crawling through skewed joins | salting + AQE + broadcast joins | runtime cut from **XX min → YY min** |
-| full table scans on every run | partition pruning + Z-ordering on Delta | **XX% less data scanned** |
+| a job crawling through skewed joins | salting + AQE + broadcast joins | runtime cut from **hrs → mins** |
+| full table scans on every run | partition pruning + Z-ordering on Delta | **70% less data scanned** |
 | thousands of tiny files | `OPTIMIZE` + auto compaction | **faster reads, happier clusters** |
-| full reloads every night | incremental loads with `MERGE` | **XX% lower compute cost** |
+| full reloads every night | incremental loads with `MERGE` | **56% lower compute cost** |
 
 
 ## 🛠️ things I build with
