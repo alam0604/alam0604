@@ -48,7 +48,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 ## the schema of me
 
 ```sql
-CREATE TABLE IF NOT EXISTS sahida (
+CREATE TABLE IF NOT EXISTS alam (
     role                STRING     DEFAULT 'Data Engineer',
     experience_years    DECIMAL    DEFAULT 3.5,          -- and counting
     home_cloud          STRING     DEFAULT 'Azure',
