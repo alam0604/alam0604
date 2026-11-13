@@ -106,7 +106,7 @@ COMMENT 'built with a little magic ✧';
 ## read this...
 
 <details>
-<summary><b>pssst... there's a little something for you</b> 🎀</summary>
+<summary><b>pssst... there's a little something for you</b></summary>
 
 <br/>
 
@@ -126,7 +126,7 @@ COMMENT 'built with a little magic ✧';
 
 ### ✨ a little magic, a little code, and a lot of curiosity.
 
-*thanks for visiting my side of GitHub* 💜
+*thanks for visiting my side of GitHub*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A7EB,50:E6D5F7,100:F3E8FF&height=110&section=footer" width="100%" />
 
