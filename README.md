@@ -1,14 +1,18 @@
 <div align="center">
-  <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
+<img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
 </div>
-</br>
+<br/>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=180&section=header&text=hello,%20fellow%20explorer!&fontSize=34&fontColor=74529B&animation=fadeIn&fontAlignY=38&desc=a%20tiny%20universe%20built%20with%20code%20%E2%9C%A7&descAlignY=60&descSize=15" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F3E8FF,50:E6D5F7,100:C9A7EB&height=200&section=header&text=hello,%20fellow%20explorer!&fontSize=36&fontColor=74529B&animation=fadeIn&fontAlignY=38&desc=a%20tiny%20universe%20built%20with%20code%20%E2%9C%A7&descAlignY=60&descSize=16" width="100%" />
+
+<a href="https://github.com/alam0604">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=9B7BC7&center=true&vCenter=true&width=650&lines=Data+Engineer+%E2%9C%A7+Azure+%E2%9C%A7+Databricks+%E2%9C%A7+PySpark;turning+messy+data+into+tiny+bits+of+magic+%F0%9F%AA%84;building+pipelines+that+don't+wake+anyone+at+3am+%E2%98%81%EF%B8%8F;always+curious%2C+always+learning+%F0%9F%8C%B1" alt="Typing intro" />
+</a>
 
 ### ✧ apparently my life is all about ✧
 
-**Data Engineering | Azure | Databricks | PySpark**
+**Data Engineering &nbsp;·&nbsp; Azure &nbsp;·&nbsp; Databricks &nbsp;·&nbsp; PySpark &nbsp;·&nbsp; SQL &nbsp;·&nbsp; MS Fabric &nbsp;·&nbsp; Optimization**
 
 *Building things, solving problems, and finding magic in data.*
 
@@ -17,27 +21,27 @@
 
 </div>
 
----
 <p align="center">
-  <img
-    src="https://alam-profile-counter.alamsahban101.workers.dev/"
-    width="100%"
-    alt="A little lilac corner of GitHub"
-  />
+<img src="https://alam-profile-counter.alamsahban101.workers.dev/" width="100%" alt="A little lilac corner of GitHub"/>
 </p>
 
 
-### Me..?
+## Me..?
+
+<img align="right" width="300" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3000&pause=800&color=B79CED&multiline=true&width=300&height=90&lines=spark.read%28%22curiosity%22%29;.transform%28learn%29;.write.mode%28%22append%22%29" alt="code snippet"/>
 
 Heyy viewer! I'm a Data Engineer with **3.5+ years of experience** building scalable data engineering solutions on Azure.
 I enjoy transforming complex data into meaningful insights, designing efficient pipelines, and exploring better ways to work with big data.
 
-- ☁️ Working with Azure and Databricks
-- ⚡ Building scalable ETL/ELT pipelines
-- 🪄 Exploring Spark optimization and lakehouse architecture
+- ☁️ Working with **Azure** and **Databricks**
+- ⚡ Building scalable **ETL/ELT pipelines**
+- 🪄 Exploring **Spark optimization** and **lakehouse architecture**
 - 🌱 Always learning something new
 
-### 🛠️ things I build with
+<br clear="right"/>
+
+
+## 🛠️ things I build with
 
 <div align="center">
 
@@ -50,9 +54,7 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 ![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-B79CED?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Delta Lake](https://img.shields.io/badge/Delta_Lake-DCC5F2?style=for-the-badge&logo=databricks&logoColor=55406F)
 
-</div>
-
-<div align="center">
+<br/>
 
 [![Repositories](https://img.shields.io/badge/Explore%20my%20repositories-BB9BD8?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alam0604?tab=repositories)
 
@@ -60,29 +62,39 @@ I enjoy transforming complex data into meaningful insights, designing efficient 
 
 </div>
 
-### read this...
+
+## 🐾 let's playy (take a break from data engineering)
+
+<div align="center">
+<img src="assets/meow-run.svg" width="100%" alt="A little pixel cat running and jumping over cacti"/>
+</div>
+
+
+## read this...
 
 <details>
-  <summary>pssst... there's a little something for you</summary>
+<summary><b>pssst... there's a little something for you</b></summary>
 
 <br/>
-If you've made it this far, here's a little reminder:</br>
-**You don't have to have everything figured out.** </br>
-Keep learning, keep creating, keep being curious.</br>
-And never stop finding magic in the little things. ✨</br>
-Here's a tiny cookie for your journey 🍪
+
+> If you've made it this far, here's a little reminder:
+>
+> **You don't have to have everything figured out.**
+> Keep learning, keep creating, keep being curious.
+> And never stop finding magic in the little things. ✨
+>
+> Here's a tiny cookie for your journey 🍪
+
 </details>
 
----
+<br/>
 
 <div align="center">
 
 ### ✨ a little magic, a little code, and a lot of curiosity.
 
-*thanks for visiting my side of the Github*
+*thanks for visiting my side of GitHub* 
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E6D5F7&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:C9A7EB,50:E6D5F7,100:F3E8FF&height=110&section=footer" width="100%" />
 
 </div>
-
-
