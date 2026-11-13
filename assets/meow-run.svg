@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 170" width="800" height="170" shape-rendering="crispEdges">
+  <style>
+    .sky { fill: #FBF7FF; }
+    .ground { stroke: #9B82C9; stroke-width: 2; }
+    .pebbles { stroke: #C9A7EB; stroke-width: 2; stroke-dasharray: 4 22 2 30 6 40; animation: scroll 1s linear infinite; }
+    .cloud { fill: #E6D5F7; animation: drift 14s linear infinite; }
+    .cloud.c2 { animation-duration: 20s; animation-delay: -9s; }
+    .cactus { fill: #B79CED; animation: run 2.4s linear infinite; }
+    .cactus.k2 { animation-delay: -1.2s; }
+    .cat { fill: #74529B; animation: jump 1.2s infinite; }
+    .eye { fill: #FBF7FF; }
+    .legA { animation: legA 0.24s steps(1) infinite; }
+    .legB { animation: legB 0.24s steps(1) infinite; }
+    .hud { fill: #9B7BC7; font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+    .hint { fill: #B79CED; font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; animation: blink 1.6s steps(1) infinite; }
+
+    @keyframes run   { from { transform: translateX(820px); } to { transform: translateX(-40px); } }
+    @keyframes drift { from { transform: translateX(820px); } to { transform: translateX(-120px); } }
+    @keyframes scroll { from { stroke-dashoffset: 0; } to { stroke-dashoffset: 104; } }
+    @keyframes jump {
+      0%, 55%  { transform: translateY(0); animation-timing-function: cubic-bezier(.2,.7,.4,1); }
+      67.5%    { transform: translateY(-58px); animation-timing-function: cubic-bezier(.6,0,.8,.3); }
+      80%,100% { transform: translateY(0); }
+    }
+    @keyframes legA  { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes legB  { 0% { opacity: 0; } 50% { opacity: 1; } }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <rect class="sky" width="800" height="170" rx="14"/>
+
+  <text class="hud" x="780" y="28" text-anchor="end">HI 00420  00128</text>
+  <text class="hint" x="20" y="28">meow-run ✧ no wifi needed</text>
+
+  <!-- clouds -->
+  <g class="cloud"><rect x="0" y="44" width="48" height="8"/><rect x="10" y="36" width="24" height="8"/></g>
+  <g class="cloud c2"><rect x="0" y="62" width="40" height="8"/><rect x="8" y="54" width="20" height="8"/></g>
+
+  <!-- ground -->
+  <line class="ground" x1="0" y1="131" x2="800" y2="131"/>
+  <line class="pebbles" x1="0" y1="140" x2="800" y2="140"/>
+
+  <!-- cacti -->
+  <g class="cactus">
+    <rect x="8" y="100" width="8" height="31"/>
+    <rect x="0" y="108" width="4" height="10"/><rect x="4" y="114" width="4" height="4"/>
+    <rect x="20" y="104" width="4" height="10"/><rect x="16" y="110" width="4" height="4"/>
+  </g>
+  <g class="cactus k2">
+    <rect x="8" y="104" width="8" height="27"/>
+    <rect x="0" y="110" width="4" height="8"/><rect x="4" y="116" width="4" height="4"/>
+    <rect x="20" y="108" width="4" height="10"/><rect x="16" y="114" width="4" height="4"/>
+  </g>
+
+  <!-- original pixel cat runner -->
+  <g class="cat">
+    <!-- tail -->
+    <rect x="96" y="98" width="4" height="12"/><rect x="100" y="106" width="4" height="4"/>
+    <!-- body -->
+    <rect x="100" y="110" width="32" height="12"/>
+    <!-- head + ears -->
+    <rect x="120" y="98" width="20" height="16"/>
+    <rect x="120" y="94" width="4" height="4"/><rect x="136" y="94" width="4" height="4"/>
+    <rect class="eye" x="132" y="102" width="4" height="4"/>
+    <!-- legs -->
+    <g class="legA"><rect x="104" y="122" width="4" height="8"/><rect x="124" y="122" width="4" height="8"/></g>
+    <g class="legB"><rect x="108" y="122" width="4" height="8"/><rect x="120" y="122" width="4" height="8"/></g>
+  </g>
+</svg>
