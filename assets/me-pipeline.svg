@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="800" height="230">
+  <style>
+    .bg { fill: #FBF7FF; }
+    .title { fill: #74529B; font: 600 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+    .layer { font: 600 11px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 2px; }
+    .name { fill: #55406F; font: 600 16px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .sub { fill: #9B7BC7; font: 12px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .pipe { stroke: #DCC5F2; stroke-width: 4; stroke-linecap: round; }
+    .flow { stroke: #B79CED; stroke-width: 4; stroke-linecap: round; stroke-dasharray: 2 14; animation: flow 0.9s linear infinite; }
+    .dot { fill: #9B82C9; }
+    .d1 { animation: hop1 3s ease-in-out infinite; }
+    .d2 { animation: hop1 3s ease-in-out infinite; animation-delay: -1s; }
+    .d3 { animation: hop1 3s ease-in-out infinite; animation-delay: -2s; }
+    .glow { animation: glow 2.4s ease-in-out infinite; transform-origin: 712px 120px; }
+    .tw { animation: twinkle 1.8s ease-in-out infinite; }
+    .tw.b { animation-delay: -0.6s; } .tw.c { animation-delay: -1.2s; }
+    .footer { fill: #B79CED; font: 12px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: 1px; }
+    @keyframes flow { to { stroke-dashoffset: -16; } }
+    @keyframes hop1 {
+      0%   { transform: translate(120px, 0); opacity: 0; }
+      8%   { opacity: 1; }
+      92%  { opacity: 1; }
+      100% { transform: translate(640px, 0); opacity: 0; }
+    }
+    @keyframes glow { 0%,100% { transform: scale(1); } 50% { transform: scale(1.06); } }
+    @keyframes twinkle { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+  </style>
+
+  <rect class="bg" width="800" height="230" rx="14"/>
+  <text class="title" x="400" y="34" text-anchor="middle">✧ pipeline: build_me ✧</text>
+
+  <!-- pipes between stages -->
+  <line class="pipe" x1="120" y1="120" x2="680" y2="120"/>
+  <line class="flow" x1="120" y1="120" x2="680" y2="120"/>
+
+  <!-- data packets -->
+  <circle class="dot d1" cx="0" cy="120" r="5"/>
+  <circle class="dot d2" cx="0" cy="120" r="5"/>
+  <circle class="dot d3" cx="0" cy="120" r="5"/>
+
+  <!-- source: raw ideas (cylinder) -->
+  <g>
+    <rect x="40" y="88" width="76" height="62" fill="#E6D5F7"/>
+    <ellipse cx="78" cy="150" rx="38" ry="10" fill="#E6D5F7"/>
+    <ellipse cx="78" cy="88" rx="38" ry="10" fill="#C9A7EB"/>
+    <text class="layer" x="78" y="124" text-anchor="middle" fill="#74529B">SOURCE</text>
+    <text class="sub" x="78" y="184" text-anchor="middle">raw ideas</text>
+  </g>
+
+  <!-- bronze -->
+  <g>
+    <rect x="180" y="82" width="130" height="76" rx="12" fill="#FFFFFF" stroke="#DCC5F2" stroke-width="2"/>
+    <text class="layer" x="245" y="106" text-anchor="middle" fill="#B08A6E">BRONZE</text>
+    <text class="name" x="245" y="132" text-anchor="middle">curiosity</text>
+    <text class="sub" x="245" y="184" text-anchor="middle">ingest everything</text>
+  </g>
+
+  <!-- silver -->
+  <g>
+    <rect x="360" y="82" width="130" height="76" rx="12" fill="#FFFFFF" stroke="#C9A7EB" stroke-width="2"/>
+    <text class="layer" x="425" y="106" text-anchor="middle" fill="#8E8AA3">SILVER</text>
+    <text class="name" x="425" y="132" text-anchor="middle">learning</text>
+    <text class="sub" x="425" y="184" text-anchor="middle">clean, join, repeat</text>
+  </g>
+
+  <!-- gold -->
+  <g class="glow">
+    <rect x="540" y="82" width="130" height="76" rx="12" fill="#F3E8FF" stroke="#9B82C9" stroke-width="2"/>
+    <text class="layer" x="605" y="106" text-anchor="middle" fill="#C29B3A">GOLD</text>
+    <text class="name" x="605" y="132" text-anchor="middle">magic ✨</text>
+  </g>
+  <text class="sub" x="605" y="184" text-anchor="middle">insights, served fresh</text>
+
+  <!-- sparkles at the end -->
+  <text class="tw"   x="700" y="104" fill="#B79CED" font-size="18">✦</text>
+  <text class="tw b" x="728" y="128" fill="#9B82C9" font-size="22">✧</text>
+  <text class="tw c" x="704" y="148" fill="#C9A7EB" font-size="14">✦</text>
+
+  <text class="footer" x="400" y="214" text-anchor="middle">status: RUNNING · retries: ∞ · nulls: 0</text>
+</svg>
