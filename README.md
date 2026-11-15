@@ -99,7 +99,7 @@ COMMENT 'built with a little magic ✧';
 ## 🧩 leetcode, in numbers
 
 <div align="center">
-<img src="assets/leetcode-stats.svg" width="100%" alt="LeetCode: 933 problems solved, 243 easy, 573 medium, 117 hard"/>
+<img src="assets/leetcode-stats-lilac.svg" width="100%" alt="LeetCode: 933 problems solved, 243 easy, 573 medium, 117 hard"/>
 </div>
 
 
