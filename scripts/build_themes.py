@@ -105,6 +105,8 @@ THEMES = {
     "midnight": dict(
         label="⚡ midnight", swatch="0D1117", link=REPO_BLOB + "midnight.md", fn=midnight,
         glyph="⚡",
+        capsule=("0:000000,50:0D1117,100:0B3D4A", "0:0B3D4A,50:0D1117,100:000000"),
+        badges=(["0D1117"], "00E5FF"),
         url_overrides={"fontColor=74529B": "fontColor=00E5FF", "color=9B7BC7": "color=00E5FF",
                        "color=B79CED": "color=7DF9FF"},
         text={
@@ -135,6 +137,8 @@ THEMES = {
     "enchanted": dict(
         label="🔮 enchanted", swatch="4B2A7B", link=REPO_BLOB + "enchanted.md", fn=enchanted,
         glyph="🔮",
+        capsule=("0:0B0B2B,40:3B1E6E,75:7B3FA0,100:F5C26B", "0:F5C26B,25:7B3FA0,60:3B1E6E,100:0B0B2B"),
+        badges=(["2E1A47", "4B2A7B"], "FFE29A"),
         url_overrides={"fontColor=74529B": "fontColor=FFE29A", "animation=fadeIn": "animation=twinkling",
                        "color=9B7BC7": "color=F5C26B", "color=B79CED": "color=C9A0FF"},
         text={
@@ -153,7 +157,7 @@ THEMES = {
 
 def badge(label, msg, color):
     q = lambda s: up.quote(s, safe="")
-    return f"https://img.shields.io/badge/{q(label)}-{q(msg)}-{color}?style=for-the-badge"
+    return f"https://img.shields.io/badge/{q(label)}-{q(msg)}-{color}?style=for-the-badge&labelColor={color}"
 
 
 def switcher(current):
@@ -192,14 +196,25 @@ def retext(piece, t, plus):
     return e.replace("%20", "+") if plus else e
 
 
-def theme_url(url, t):
+def theme_url(url, t, n=[0]):
+    if "capsule-render" in url and t.get("capsule"):
+        head, foot = t["capsule"]
+        url = re.sub(r"color=[0-9A-Fa-f:,]+", "color=" + (foot if "section=footer" in url else head), url)
+    if "img.shields.io/badge/" in url and t.get("badges"):
+        bgs, logo = t["badges"]
+        bg = bgs[n[0] % len(bgs)]
+        n[0] += 1
+        url = re.sub(r"-[0-9A-Fa-f]{6}\?", f"-{bg}?", url, count=1)
+        url = re.sub(r"logoColor=[0-9A-Za-z]+", f"logoColor={logo}", url)
+        return url
     held = {}
     for i, (old, new) in enumerate(t["url_overrides"].items()):
         if old in url:
             token = f"@@{i}@@"
             url = url.replace(old, token)
             held[token] = new
-    url = URL_HEX.sub(lambda m: recolor_hex(m.group(1), t["fn"], False), url)
+    if not ("capsule-render" in url and t.get("capsule")):
+        url = URL_HEX.sub(lambda m: recolor_hex(m.group(1), t["fn"], False), url)
     plus = "readme-typing-svg" in url
     url = re.sub(r"(?<=[?&])(text|desc|lines)=([^&\"]*)",
                  lambda m: m.group(1) + "=" + ";".join(retext(p, t, plus) for p in m.group(2).split(";")),
@@ -210,7 +225,6 @@ def theme_url(url, t):
 
 
 def build_md(md, key, t):
-    md = set_switcher(md, key)
     md = URL_RE.sub(lambda m: theme_url(m.group(0), t), md)
     for old, new in t["text"].items():
         md = md.replace(old, new).replace(norm(old), new)
@@ -219,7 +233,7 @@ def build_md(md, key, t):
     md = re.sub(r'src="assets/([^"/]+\.svg)"', rf'src="../assets/themes/{key}/\1"', md)
     md = re.sub(r'src="assets/', 'src="../assets/', md)
     md = md.replace("My lilac ", "My ").replace("little lilac ", "little ")
-    return md
+    return set_switcher(md, key)
 
 
 def main():
