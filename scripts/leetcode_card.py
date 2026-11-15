@@ -13,7 +13,7 @@ import sys
 import urllib.request
 
 CARD = "assets/leetcode-stats-lilac.svg"
-README = "README.md"
+README = "profile-source.md"
 
 QUERY = """query($u: String!) {
   matchedUser(username: $u) { submitStatsGlobal { acSubmissionNum { difficulty count } } }
