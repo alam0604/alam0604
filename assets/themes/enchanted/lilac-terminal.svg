@@ -1,0 +1,74 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="490" viewBox="0 0 720 490">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F134D"/>
+      <stop offset="100%" stop-color="#110A2A"/>
+    </linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4B1976"/>
+      <stop offset="100%" stop-color="#1F134D"/>
+    </linearGradient>
+    <linearGradient id="purple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFF0C2"/>
+      <stop offset="100%" stop-color="#C08AEF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main window -->
+  <rect width="720" height="490" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="718" height="488" rx="21" fill="none" stroke="#8E3BD6" stroke-opacity=".55"/>
+
+  <!-- Window header -->
+  <path d="M22 0 H698 Q720 0 720 22 V62 H0 V22 Q0 0 22 0Z" fill="url(#header)"/>
+  <circle cx="28" cy="30" r="7" fill="#FF7D93"/>
+  <circle cx="52" cy="30" r="7" fill="#FFD27A"/>
+  <circle cx="76" cy="30" r="7" fill="#8DDBA5"/>
+  <text x="360" y="35" text-anchor="middle" fill="#FFF0C2" font-size="15" font-family="monospace">✧ alam0604@DE ✧</text>
+  <text x="685" y="35" text-anchor="end" fill="#BF90E8" font-size="12" font-family="monospace">zsh</text>
+
+  <!-- Welcome -->
+  <text x="35" y="99" fill="#FFF0C2" font-family="monospace" font-size="13">❯ hello, fellow explorer!</text>
+  <text x="35" y="137" fill="#FFF0C2" font-family="sans-serif" font-size="28" font-weight="bold">my data engineering universe♡</text>
+  <text x="35" y="160" fill="#BD8EE7" font-family="sans-serif" font-size="13">Where data meets curiosity and code meets creativity.</text>
+
+  <path d="M35 181 H685" stroke="#65229F" stroke-dasharray="4 6"/>
+
+  <!-- Identity -->
+  <text x="35" y="210" fill="#CBA6EC" font-family="monospace" font-size="13">❯ 01 / WHOAMI</text>
+  <text x="35" y="241" fill="#FFFFFF" font-family="sans-serif" font-size="21" font-weight="bold">Azure Data Engineer</text>
+  <text x="35" y="264" fill="#BD8EE7" font-family="sans-serif" font-size="13">3.5+ years · Building scalable data solutions</text>
+
+  <path d="M35 283 H685" stroke="#65229F" stroke-dasharray="4 6"/>
+
+  <!-- Tech stack -->
+  <text x="35" y="310" fill="#CBA6EC" font-family="monospace" font-size="13">❯ 02 / MY_STACK</text>
+
+  <g font-family="sans-serif" font-size="13" font-weight="bold">
+    <rect x="35" y="325" width="94" height="30" rx="9" fill="#5C1F92"/>
+    <text x="82" y="345" fill="#FFF0C2" text-anchor="middle">Azure</text>
+
+    <rect x="139" y="325" width="115" height="30" rx="9" fill="#6C24AB"/>
+    <text x="196" y="345" fill="#FFFFFF" text-anchor="middle">Databricks</text>
+
+    <rect x="264" y="325" width="94" height="30" rx="9" fill="#7F2BC8"/>
+    <text x="311" y="345" fill="#FFFFFF" text-anchor="middle">PySpark</text>
+
+    <rect x="368" y="325" width="75" height="30" rx="9" fill="#8A35D4"/>
+    <text x="405" y="345" fill="#FFFFFF" text-anchor="middle">SQL</text>
+
+    <rect x="453" y="325" width="111" height="30" rx="9" fill="#5F2097"/>
+    <text x="508" y="345" fill="#FFF0C2" text-anchor="middle">Delta Lake</text>
+  </g>
+
+  <path d="M35 374 H685" stroke="#65229F" stroke-dasharray="4 6"/>
+
+  <!-- Certifications -->
+  <text x="35" y="401" fill="#CBA6EC" font-family="monospace" font-size="13">❯ 03 / CERTIFICATIONS</text>
+  <text x="35" y="429" fill="#A9E6B6" font-family="sans-serif" font-size="13">✓ Databricks Certified Associate</text>
+  <text x="365" y="429" fill="#A9E6B6" font-family="sans-serif" font-size="13">✓ Databricks Certified Professional</text>
+
+  <!-- Footer -->
+  <text x="35" y="469" fill="#FFF0C2" font-family="monospace" font-size="12">❯ current_mood: building something cool ✧</text>
+  <text x="685" y="469" text-anchor="end" fill="#BD8EE7" font-family="monospace" font-size="11">∞ curious</text>
+</svg>
