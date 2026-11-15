@@ -16,6 +16,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 README = os.path.join(ROOT, "README.md")
 SOURCE = os.path.join(ROOT, "profile-source.md")
 ORDER = ["midnight", "sakura", "enchanted", "lilac"]  # lilac last: it is the one open by default
+
+# Theme switcher on/off. False = the profile shows only lilac (README.md is a copy of
+# profile-source.md). Set to True to bring back the midnight / sakura / enchanted themes.
+SHOW_THEMES = False
 REPO_BLOB = "https://github.com/alam0604/alam0604/blob/main/themes/"
 PROFILE = "https://github.com/alam0604"
 
@@ -254,6 +258,12 @@ def main():
             f.write(md)
     with open(SOURCE, encoding="utf-8") as f:
         src = f.read()
+
+    if not SHOW_THEMES:
+        with open(README, "w", encoding="utf-8") as f:
+            f.write(src)
+        print("themes are off: README.md is the lilac profile only")
+        return
 
     assets = os.path.join(ROOT, "assets")
     svgs = [n for n in os.listdir(assets) if n.endswith(".svg")]
