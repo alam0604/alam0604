@@ -14,7 +14,7 @@
 <br/>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0B2B,40:3B1E6E,75:7B3FA0,100:F5C26B&height=200&section=header&text=welcome%2C%20traveler%20of%20realms&fontSize=36&fontColor=FFE29A&animation=twinkling&fontAlignY=38&desc=where%20data%20turns%20into%20spells%20%F0%9F%94%AE&descAlignY=60&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=egg&color=0:0B0B2B,40:3B1E6E,75:7B3FA0,100:F5C26B&height=200&section=header&text=welcome%2C%20traveler%20of%20realms&fontSize=36&fontColor=FFE29A&animation=twinkling&fontAlignY=38&desc=where%20data%20turns%20into%20spells%20%F0%9F%94%AE&descAlignY=60&descSize=16" width="100%" />
 
 <a href="https://github.com/alam0604">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=F5C26B&center=true&vCenter=true&width=650&lines=Data+Engineer+%F0%9F%94%AE+Azure+%F0%9F%94%AE+Databricks+%F0%9F%94%AE+PySpark;casting+spells+on+messy+data+%E2%9C%A8;conjuring+pipelines+under+the+moonlight+%F0%9F%8C%99;the+curious+find+the+magic+%F0%9F%AA%84" alt="Typing intro" />
@@ -145,6 +145,6 @@ COMMENT 'built with a little magic ✧';
 
 *thanks for visiting my side of GitHub*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F5C26B,25:7B3FA0,60:3B1E6E,100:0B0B2B&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=egg&color=0:F5C26B,25:7B3FA0,60:3B1E6E,100:0B0B2B&height=110&section=footer" width="100%" />
 
 </div>

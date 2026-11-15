@@ -14,7 +14,7 @@
 <br/>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0D1117,100:0B3D4A&height=200&section=header&text=welcome%20to%20the%20dark%20side.&fontSize=36&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=power%2C%20precision%2C%20and%20pipelines%20%E2%9A%A1&descAlignY=60&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:000000,50:0D1117,100:0B3D4A&height=200&section=header&text=welcome%20to%20the%20dark%20side.&fontSize=36&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=power%2C%20precision%2C%20and%20pipelines%20%E2%9A%A1&descAlignY=60&descSize=16" width="100%" />
 
 <a href="https://github.com/alam0604">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=00E5FF&center=true&vCenter=true&width=650&lines=Data+Engineer+%E2%9A%A1+Azure+%E2%9A%A1+Databricks+%E2%9A%A1+PySpark;engineering+data+at+scale.+no+excuses.;pipelines+that+run+while+the+world+sleeps+%F0%9F%8C%91;optimize.+ship.+repeat." alt="Typing intro" />
@@ -145,6 +145,6 @@ COMMENT 'built with a little magic ✧';
 
 *thanks for visiting my side of GitHub*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D4A,50:0D1117,100:000000&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0B3D4A,50:0D1117,100:000000&height=110&section=footer" width="100%" />
 
 </div>
