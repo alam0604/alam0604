@@ -105,7 +105,7 @@ THEMES = {
     "midnight": dict(
         label="⚡ midnight", swatch="0D1117", link=REPO_BLOB + "midnight.md", fn=midnight,
         glyph="⚡",
-        capsule=("0:000000,50:0D1117,100:0B3D4A", "0:0B3D4A,50:0D1117,100:000000"),
+        capsule=("0:000000,50:0D1117,100:0B3D4A", "0:0B3D4A,50:0D1117,100:000000", "shark"),
         badges=(["0D1117"], "00E5FF"),
         url_overrides={"fontColor=74529B": "fontColor=00E5FF", "color=9B7BC7": "color=00E5FF",
                        "color=B79CED": "color=7DF9FF"},
@@ -137,7 +137,7 @@ THEMES = {
     "enchanted": dict(
         label="🔮 enchanted", swatch="4B2A7B", link=REPO_BLOB + "enchanted.md", fn=enchanted,
         glyph="🔮",
-        capsule=("0:0B0B2B,40:3B1E6E,75:7B3FA0,100:F5C26B", "0:F5C26B,25:7B3FA0,60:3B1E6E,100:0B0B2B"),
+        capsule=("0:0B0B2B,40:3B1E6E,75:7B3FA0,100:F5C26B", "0:F5C26B,25:7B3FA0,60:3B1E6E,100:0B0B2B", "egg"),
         badges=(["2E1A47", "4B2A7B"], "FFE29A"),
         url_overrides={"fontColor=74529B": "fontColor=FFE29A", "animation=fadeIn": "animation=twinkling",
                        "color=9B7BC7": "color=F5C26B", "color=B79CED": "color=C9A0FF"},
@@ -198,7 +198,8 @@ def retext(piece, t, plus):
 
 def theme_url(url, t, n=[0]):
     if "capsule-render" in url and t.get("capsule"):
-        head, foot = t["capsule"]
+        head, foot, shape = t["capsule"]  # solid shapes: "waving" is see-through
+        url = re.sub(r"type=[a-z]+", "type=" + shape, url)
         url = re.sub(r"color=[0-9A-Fa-f:,]+", "color=" + (foot if "section=footer" in url else head), url)
     if "img.shields.io/badge/" in url and t.get("badges"):
         bgs, logo = t["badges"]
