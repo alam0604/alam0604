@@ -239,7 +239,8 @@ def section(key, body):
     t = THEMES[key]
     is_default = key == "lilac"
     msg = "default" if is_default else "tap to switch"
-    button = f'<img src="{badge(t["label"], msg, t["swatch"])}" alt="{key} theme"/>'
+    # <picture> stops GitHub from turning the badge into a link, so a click opens the theme
+    button = f'<picture><img src="{badge(t["label"], msg, t["swatch"])}" alt="{key} theme"/></picture>'
     return (f'<details name="vibe"{" open" if is_default else ""}>\n'
             f"<summary>{button}</summary>\n\n{body.strip()}\n\n</details>\n")
 
