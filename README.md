@@ -2,7 +2,7 @@
 <div align="center"><sub>✧ pick a vibe ✧ tap a theme to open it right here ✧</sub></div>
 
 <details name="vibe">
-<summary><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-tap%20to%20switch-0D1117?style=for-the-badge&labelColor=0D1117" alt="midnight theme"/></summary>
+<summary><picture><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-tap%20to%20switch-0D1117?style=for-the-badge&labelColor=0D1117" alt="midnight theme"/></picture></summary>
 
 <div align="center">
 <img src="assets/themes/midnight/terminal-style.svg" width="100%" alt="My developer universe"/>
@@ -148,7 +148,7 @@ COMMENT 'built with a little magic ✧';
 </details>
 
 <details name="vibe">
-<summary><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-tap%20to%20switch-FFB3CF?style=for-the-badge&labelColor=FFB3CF" alt="sakura theme"/></summary>
+<summary><picture><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-tap%20to%20switch-FFB3CF?style=for-the-badge&labelColor=FFB3CF" alt="sakura theme"/></picture></summary>
 
 <div align="center">
 <img src="assets/themes/sakura/terminal-style.svg" width="100%" alt="My developer universe"/>
@@ -294,7 +294,7 @@ COMMENT 'built with a little magic ✧';
 </details>
 
 <details name="vibe">
-<summary><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-tap%20to%20switch-4B2A7B?style=for-the-badge&labelColor=4B2A7B" alt="enchanted theme"/></summary>
+<summary><picture><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-tap%20to%20switch-4B2A7B?style=for-the-badge&labelColor=4B2A7B" alt="enchanted theme"/></picture></summary>
 
 <div align="center">
 <img src="assets/themes/enchanted/terminal-style.svg" width="100%" alt="My developer universe"/>
@@ -440,7 +440,7 @@ COMMENT 'built with a little magic ✧';
 </details>
 
 <details name="vibe" open>
-<summary><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-C9A7EB?style=for-the-badge&labelColor=C9A7EB" alt="lilac theme"/></summary>
+<summary><picture><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-C9A7EB?style=for-the-badge&labelColor=C9A7EB" alt="lilac theme"/></picture></summary>
 
 <div align="center">
 <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
