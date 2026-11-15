@@ -1,10 +1,10 @@
 <!-- theme-switcher:start -->
 <div align="center">
 <sub>✧ pick a vibe ✧</sub><br/>
-<a href="https://github.com/alam0604"><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-51B2E6?style=for-the-badge" alt="lilac theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/midnight.md"><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-you%27re%20here-FFFFFF?style=for-the-badge" alt="midnight theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/sakura.md"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-switch-FFB3CF?style=for-the-badge" alt="sakura theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/enchanted.md"><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-switch-B9FBFB?style=for-the-badge" alt="enchanted theme"/></a>
+<a href="https://github.com/alam0604"><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-C9A7EB?style=for-the-badge&labelColor=C9A7EB" alt="lilac theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/midnight.md"><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-you%27re%20here-0D1117?style=for-the-badge&labelColor=0D1117" alt="midnight theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/sakura.md"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-switch-FFB3CF?style=for-the-badge&labelColor=FFB3CF" alt="sakura theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/enchanted.md"><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-switch-4B2A7B?style=for-the-badge&labelColor=4B2A7B" alt="enchanted theme"/></a>
 </div>
 <!-- theme-switcher:end -->
 
@@ -14,7 +14,7 @@
 <br/>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F141B,50:131A24,100:51B2E6&height=200&section=header&text=welcome%20to%20the%20dark%20side.&fontSize=36&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=power%2C%20precision%2C%20and%20pipelines%20%E2%9A%A1&descAlignY=60&descSize=16" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:0D1117,100:0B3D4A&height=200&section=header&text=welcome%20to%20the%20dark%20side.&fontSize=36&fontColor=00E5FF&animation=fadeIn&fontAlignY=38&desc=power%2C%20precision%2C%20and%20pipelines%20%E2%9A%A1&descAlignY=60&descSize=16" width="100%" />
 
 <a href="https://github.com/alam0604">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=00E5FF&center=true&vCenter=true&width=650&lines=Data+Engineer+%E2%9A%A1+Azure+%E2%9A%A1+Databricks+%E2%9A%A1+PySpark;engineering+data+at+scale.+no+excuses.;pipelines+that+run+while+the+world+sleeps+%F0%9F%8C%91;optimize.+ship.+repeat." alt="Typing intro" />
@@ -26,8 +26,8 @@
 
 *Building things, solving problems, and finding magic in data.*
 
-[![GitHub](https://img.shields.io/badge/GitHub-alam0604-38B9E3?style=flat-square&logo=github&logoColor=white)](https://github.com/alam0604)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-51B2E6?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sahbanalam0604/)
+[![GitHub](https://img.shields.io/badge/GitHub-alam0604-0D1117?style=flat-square&logo=github&logoColor=00E5FF)](https://github.com/alam0604)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=flat-square&logo=linkedin&logoColor=00E5FF)](https://www.linkedin.com/in/sahbanalam0604/)
 
 </div>
 
@@ -88,18 +88,18 @@ COMMENT 'built with a little magic ✧';
 
 <div align="center">
 
-![Azure](https://img.shields.io/badge/Azure-1FC3D8?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Databricks-4AB4E5?style=for-the-badge&logo=databricks&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-51B2E6?style=for-the-badge&logo=apachespark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-171F2B?style=for-the-badge&logo=python&logoColor=B3FBFB)
-![SQL](https://img.shields.io/badge/SQL-131A24?style=for-the-badge&logo=postgresql&logoColor=B3FBFB)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-51B2E6?style=for-the-badge&logo=apachespark&logoColor=white)
-![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-4AB4E5?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Delta_Lake-171F2B?style=for-the-badge&logo=databricks&logoColor=B3FBFB)
+![Azure](https://img.shields.io/badge/Azure-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=00E5FF)
+![Databricks](https://img.shields.io/badge/Databricks-0D1117?style=for-the-badge&logo=databricks&logoColor=00E5FF)
+![PySpark](https://img.shields.io/badge/PySpark-0D1117?style=for-the-badge&logo=apachespark&logoColor=00E5FF)
+![Python](https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00E5FF)
+![SQL](https://img.shields.io/badge/SQL-0D1117?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-0D1117?style=for-the-badge&logo=apachespark&logoColor=00E5FF)
+![Azure Data Factory](https://img.shields.io/badge/Azure_Data_Factory-0D1117?style=for-the-badge&logo=microsoftazure&logoColor=00E5FF)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-0D1117?style=for-the-badge&logo=databricks&logoColor=00E5FF)
 
 <br/>
 
-[![Repositories](https://img.shields.io/badge/Explore%20my%20repositories-38B9E3?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alam0604?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Explore%20my%20repositories-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF)](https://github.com/alam0604?tab=repositories)
 
 *Every project starts with a problem worth crushing.*
 
@@ -145,6 +145,6 @@ COMMENT 'built with a little magic ✧';
 
 *thanks for visiting my side of GitHub*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:51B2E6,50:131A24,100:0F141B&height=110&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D4A,50:0D1117,100:000000&height=110&section=footer" width="100%" />
 
 </div>

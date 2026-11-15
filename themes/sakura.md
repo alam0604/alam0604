@@ -1,10 +1,10 @@
 <!-- theme-switcher:start -->
 <div align="center">
 <sub>✧ pick a vibe ✧</sub><br/>
-<a href="https://github.com/alam0604"><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-F1A1C2?style=for-the-badge" alt="lilac theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/midnight.md"><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-switch-180C11?style=for-the-badge" alt="midnight theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/sakura.md"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-you%27re%20here-FFB3CF?style=for-the-badge" alt="sakura theme"/></a>
-<a href="https://github.com/alam0604/alam0604/blob/main/themes/enchanted.md"><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-switch-83224A?style=for-the-badge" alt="enchanted theme"/></a>
+<a href="https://github.com/alam0604"><img src="https://img.shields.io/badge/%E2%9C%A7%20lilac-default-C9A7EB?style=for-the-badge&labelColor=C9A7EB" alt="lilac theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/midnight.md"><img src="https://img.shields.io/badge/%E2%9A%A1%20midnight-switch-0D1117?style=for-the-badge&labelColor=0D1117" alt="midnight theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/sakura.md"><img src="https://img.shields.io/badge/%F0%9F%8C%B8%20sakura-you%27re%20here-FFB3CF?style=for-the-badge&labelColor=FFB3CF" alt="sakura theme"/></a>
+<a href="https://github.com/alam0604/alam0604/blob/main/themes/enchanted.md"><img src="https://img.shields.io/badge/%F0%9F%94%AE%20enchanted-switch-4B2A7B?style=for-the-badge&labelColor=4B2A7B" alt="enchanted theme"/></a>
 </div>
 <!-- theme-switcher:end -->
 
