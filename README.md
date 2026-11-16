@@ -1,4 +1,11 @@
 <div align="center">
+<a href="https://github.com/alam0604/daily-data-engineering-facts"><img src="https://raw.githubusercontent.com/alam0604/daily-data-engineering-facts/main/fact.svg" width="600" alt="Today's data engineering pick and quick fact"/></a>
+<br/>
+<sub>✧ a new data engineering pick every morning · <a href="https://github.com/alam0604/daily-data-engineering-facts/blob/main/ARCHIVE.md">past picks</a> ✧</sub>
+</div>
+<br/>
+
+<div align="center">
 <img src="assets/terminal-style.svg" width="100%" alt="My lilac developer universe"/>
 </div>
 <br/>
