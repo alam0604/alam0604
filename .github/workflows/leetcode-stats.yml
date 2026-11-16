@@ -2,7 +2,7 @@ name: Update LeetCode card + themes
 
 on:
   schedule:
-    - cron: "15 2 * * *"   # every day, 07:45 IST
+    - cron: "30 0 * * *"   # every day, 06:00 IST
   workflow_dispatch:        # "Run workflow" button for manual updates
   push:                     # rebuild the themes whenever the README or art changes
     branches: [main]
