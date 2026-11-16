@@ -109,10 +109,6 @@ COMMENT 'built with a little magic ✧';
 <img src="assets/meow-run.svg" width="100%" alt="A little pixel cat running and jumping over cacti"/>
 </div>
 
-<div align="center">
-<img src="assets/tetris.svg" width="100%" alt="A colorful, self-playing Tetris game with rainbow line clears"/>
-</div>
-
 
 ## read this...
 
