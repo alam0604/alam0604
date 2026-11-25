@@ -1,57 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 120" width="800" height="120" role="img" aria-label="A lilac mini music player: now playing, my lilac playlist">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F3E8FF"/>
-      <stop offset="0.55" stop-color="#E6D5F7"/>
-      <stop offset="1" stop-color="#DCC5F2"/>
-    </linearGradient>
-    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#B79CED"/>
-      <stop offset="1" stop-color="#9B7BC7"/>
-    </linearGradient>
-    <radialGradient id="vinyl" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#74529B"/>
-      <stop offset="0.25" stop-color="#55406F"/>
-      <stop offset="1" stop-color="#3D2E52"/>
-    </radialGradient>
-  </defs>
-
-  <rect x="2" y="2" width="796" height="116" rx="20" fill="url(#bg)" stroke="#C9A7EB" stroke-width="2"/>
-
-  <!-- spinning vinyl -->
-  <g transform="translate(70 60)">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
-      <circle r="42" fill="url(#vinyl)"/>
-      <circle r="34" fill="none" stroke="#74529B" stroke-width="1" opacity="0.6"/>
-      <circle r="27" fill="none" stroke="#74529B" stroke-width="1" opacity="0.6"/>
-      <circle r="15" fill="#C9A7EB"/>
-      <circle r="12" fill="#E6D5F7"/>
-      <path d="M-6 -10 A12 12 0 0 1 8 -8" stroke="#B79CED" stroke-width="2" fill="none"/>
-      <circle r="2.5" fill="#55406F"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 44" width="360" height="44" role="img" aria-label="my lilac playlist">
+  <rect x="1" y="1" width="358" height="42" rx="21" fill="#F3E8FF" stroke="#DCC5F2" stroke-width="1.5"/>
+  <g transform="translate(26 14)" fill="#B79CED">
+    <rect x="0" y="6" width="3" height="10" rx="1.5"><animate attributeName="height" values="10;4;14;10" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="6;12;2;6" dur="1.1s" repeatCount="indefinite"/></rect>
+    <rect x="6" y="2" width="3" height="14" rx="1.5"><animate attributeName="height" values="14;6;10;14" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="2;10;6;2" dur="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="12" y="8" width="3" height="8" rx="1.5"><animate attributeName="height" values="8;14;5;8" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="8;2;11;8" dur="1.3s" repeatCount="indefinite"/></rect>
   </g>
-
-  <!-- text -->
-  <text x="135" y="44" font-family="'Fira Code', ui-monospace, monospace" font-size="13" fill="#9B7BC7" letter-spacing="2">✧ NOW PLAYING ✧</text>
-  <text x="135" y="72" font-family="'Fira Code', ui-monospace, monospace" font-size="22" font-weight="600" fill="#74529B">my lilac playlist</text>
-
-  <!-- progress bar -->
-  <rect x="135" y="88" width="420" height="6" rx="3" fill="#FFFFFF" opacity="0.7"/>
-  <rect x="135" y="88" width="0" height="6" rx="3" fill="url(#bar)">
-    <animate attributeName="width" values="0;420" dur="12s" repeatCount="indefinite"/>
-  </rect>
-  <text x="565" y="95" font-family="'Fira Code', ui-monospace, monospace" font-size="11" fill="#9B7BC7">1:00</text>
-
-  <!-- equalizer -->
-  <g transform="translate(640 30)" fill="url(#bar)">
-    <rect x="0"  y="20" width="10" height="40" rx="4"><animate attributeName="height" values="40;12;34;20;40" dur="1.1s" repeatCount="indefinite"/><animate attributeName="y" values="20;48;26;40;20" dur="1.1s" repeatCount="indefinite"/></rect>
-    <rect x="16" y="10" width="10" height="50" rx="4"><animate attributeName="height" values="18;50;26;44;18" dur="0.9s" repeatCount="indefinite"/><animate attributeName="y" values="42;10;34;16;42" dur="0.9s" repeatCount="indefinite"/></rect>
-    <rect x="32" y="30" width="10" height="30" rx="4"><animate attributeName="height" values="30;44;14;50;30" dur="1.3s" repeatCount="indefinite"/><animate attributeName="y" values="30;16;46;10;30" dur="1.3s" repeatCount="indefinite"/></rect>
-    <rect x="48" y="16" width="10" height="44" rx="4"><animate attributeName="height" values="44;20;38;12;44" dur="1s" repeatCount="indefinite"/><animate attributeName="y" values="16;40;22;48;16" dur="1s" repeatCount="indefinite"/></rect>
-    <rect x="64" y="36" width="10" height="24" rx="4"><animate attributeName="height" values="24;46;30;16;24" dur="1.2s" repeatCount="indefinite"/><animate attributeName="y" values="36;14;30;44;36" dur="1.2s" repeatCount="indefinite"/></rect>
-    <rect x="80" y="22" width="10" height="38" rx="4"><animate attributeName="height" values="38;14;48;24;38" dur="0.95s" repeatCount="indefinite"/><animate attributeName="y" values="22;46;12;36;22" dur="0.95s" repeatCount="indefinite"/></rect>
-  </g>
-  <text x="730" y="60" font-family="'Fira Code', ui-monospace, monospace" font-size="20" fill="#B79CED">♪</text>
-  <text x="752" y="80" font-family="'Fira Code', ui-monospace, monospace" font-size="14" fill="#C9A7EB">♫</text>
+  <text x="56" y="27" font-family="'Fira Code', ui-monospace, monospace" font-size="13" fill="#74529B">my lilac playlist</text>
+  <text x="334" y="27" text-anchor="end" font-family="'Fira Code', ui-monospace, monospace" font-size="11" fill="#B79CED">7 tracks ✧</text>
 </svg>

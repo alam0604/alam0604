@@ -114,7 +114,7 @@ COMMENT 'built with a little magic ✧';
 
 <div align="center">
 
-<img src="assets/on-repeat.svg" width="100%" alt="A lilac mini music player: now playing, my lilac playlist"/>
+<img src="assets/on-repeat.svg" width="360" alt="my lilac playlist"/>
 <br/><br/>
 
 <a href="https://www.youtube.com/embed/jB0-Ytbtcns?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/jB0-Ytbtcns/mqdefault.jpg" width="110" alt="Play song 1: first minute on YouTube"/></a>
