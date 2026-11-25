@@ -105,6 +105,13 @@ COMMENT 'built with a little magic ✧';
 
 ## 🧩 leetcode, in numbers
 
+<p align="center"><i>
+i like solving dsa problems.. but am i good at it? maybe not that much 🙃<br/>
+my first idea is usually O(n³), my second idea is opening the editorial,<br/>
+and my code passing 3/57 test cases still gets a small victory dance.<br/>
+but i still enjoy doing it ✧ <b>Accepted</b> just hits different after 6 Wrong Answers
+</i></p>
+
 <div align="center">
 <img src="assets/leetcode-stats-lilac.svg" width="100%" alt="LeetCode: 947 problems solved, 243 easy, 587 medium, 117 hard"/>
 </div>
