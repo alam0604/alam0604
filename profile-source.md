@@ -114,14 +114,13 @@ COMMENT 'built with a little magic ✧';
 
 <div align="center">
 
-<a href="https://www.youtube.com/embed/jB0-Ytbtcns?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/jB0-Ytbtcns/mqdefault.jpg" width="140" alt="Play song 1: first minute on YouTube"/></a>
-<a href="https://www.youtube.com/embed/qbvAmlKhWQQ?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/qbvAmlKhWQQ/mqdefault.jpg" width="140" alt="Play song 2: first minute on YouTube"/></a>
-<a href="https://www.youtube.com/embed/5uEUPOCNazY?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/5uEUPOCNazY/mqdefault.jpg" width="140" alt="Play song 3: first minute on YouTube"/></a>
-<a href="https://www.youtube.com/embed/S7tSIv34DRk?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/S7tSIv34DRk/mqdefault.jpg" width="140" alt="Play song 4: first minute on YouTube"/></a>
-<br/>
-<a href="https://www.youtube.com/embed/vReY9vhye6Y?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/vReY9vhye6Y/mqdefault.jpg" width="140" alt="Play song 5: first minute on YouTube"/></a>
-<a href="https://www.youtube.com/embed/KDe7tK1i6nA?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/KDe7tK1i6nA/mqdefault.jpg" width="140" alt="Play song 6: first minute on YouTube"/></a>
-<a href="https://www.youtube.com/embed/rBiblCpTw7s?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/rBiblCpTw7s/mqdefault.jpg" width="140" alt="Play song 7: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/jB0-Ytbtcns?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/jB0-Ytbtcns/mqdefault.jpg" width="110" alt="Play song 1: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/qbvAmlKhWQQ?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/qbvAmlKhWQQ/mqdefault.jpg" width="110" alt="Play song 2: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/5uEUPOCNazY?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/5uEUPOCNazY/mqdefault.jpg" width="110" alt="Play song 3: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/S7tSIv34DRk?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/S7tSIv34DRk/mqdefault.jpg" width="110" alt="Play song 4: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/vReY9vhye6Y?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/vReY9vhye6Y/mqdefault.jpg" width="110" alt="Play song 5: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/KDe7tK1i6nA?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/KDe7tK1i6nA/mqdefault.jpg" width="110" alt="Play song 6: first minute on YouTube"/></a>
+<a href="https://www.youtube.com/embed/rBiblCpTw7s?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/rBiblCpTw7s/mqdefault.jpg" width="110" alt="Play song 7: first minute on YouTube"/></a>
 
 <sub>✧ tap any song to play its first minute ✧</sub>
 
