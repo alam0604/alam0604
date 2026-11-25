@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" role="img" aria-label="Otaku corner: favourite anime - Vinland Saga, Attack on Titan, Fullmetal Alchemist: B, Steins;Gate, Death Note, Deadman Wonderland, Code Geass, One Piece, Naruto, Bleach, Fairy Tail, DBZ / DBS">
+<defs><clipPath id="c"><rect x="1" y="1" width="798" height="398" rx="14"/></clipPath><path id="petal" d="M0 -7 C5 -5 6 2 0 7 C-6 2 -5 -5 0 -7Z"/></defs>
+<rect x="1" y="1" width="798" height="398" rx="14" fill="#fbf7ff" stroke="#dcc5f2" stroke-width="1.5"/>
+<g clip-path="url(#c)">
+<line x1="830" y1="-30" x2="757" y2="384" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="734" y2="379" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="711" y2="373" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="689" y2="366" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="667" y2="357" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="646" y2="347" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="625" y2="337" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="605" y2="325" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="586" y2="312" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="567" y2="297" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="549" y2="282" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="532" y2="266" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="516" y2="249" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="501" y2="231" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="487" y2="212" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="474" y2="193" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="462" y2="172" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="451" y2="151" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="442" y2="130" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="433" y2="108" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="426" y2="86" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="420" y2="63" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="416" y2="40" stroke="#efe4fb" stroke-width="2"/>
+<line x1="830" y1="-30" x2="413" y2="17" stroke="#efe4fb" stroke-width="3"/>
+<line x1="830" y1="-30" x2="411" y2="-7" stroke="#efe4fb" stroke-width="1"/>
+<line x1="830" y1="-30" x2="410" y2="-30" stroke="#efe4fb" stroke-width="2"/>
+<text x="772" y="380" font-size="120" fill="#f3eafc" font-weight="700" text-anchor="end">推し</text>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(0.73)"><animateMotion dur="12.7s" begin="-3.9s" repeatCount="indefinite" rotate="auto" path="M482 -27 q -48 150 0 604"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f2c6dc" transform="scale(0.83)"><animateMotion dur="10.5s" begin="-9.1s" repeatCount="indefinite" rotate="auto" path="M475 -24 q -5 150 0 531"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(0.95)"><animateMotion dur="7.4s" begin="-0.9s" repeatCount="indefinite" rotate="auto" path="M469 -21 q -45 150 0 461"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(0.74)"><animateMotion dur="10.8s" begin="-5.8s" repeatCount="indefinite" rotate="auto" path="M336 -27 q -10 150 0 597"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#e8c9f5" transform="scale(1.22)"><animateMotion dur="12.9s" begin="-0.5s" repeatCount="indefinite" rotate="auto" path="M58 -16 q -7 150 0 362"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(1.04)"><animateMotion dur="10.2s" begin="-5.7s" repeatCount="indefinite" rotate="auto" path="M161 -19 q -37 150 0 425"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(0.92)"><animateMotion dur="10.5s" begin="-6.4s" repeatCount="indefinite" rotate="auto" path="M135 -22 q 31 150 0 476"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(1.00)"><animateMotion dur="10.4s" begin="-6.2s" repeatCount="indefinite" rotate="auto" path="M84 -20 q -6 150 0 441"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f2c6dc" transform="scale(0.92)"><animateMotion dur="9.8s" begin="-9.2s" repeatCount="indefinite" rotate="auto" path="M372 -22 q 41 150 0 480"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f7d6e6" transform="scale(1.04)"><animateMotion dur="11.2s" begin="-2.4s" repeatCount="indefinite" rotate="auto" path="M195 -19 q 3 150 0 421"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f2c6dc" transform="scale(1.29)"><animateMotion dur="11.4s" begin="-2.9s" repeatCount="indefinite" rotate="auto" path="M288 -16 q 5 150 0 342"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#e8c9f5" transform="scale(1.26)"><animateMotion dur="8.0s" begin="-3.4s" repeatCount="indefinite" rotate="auto" path="M356 -16 q -55 150 0 349"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#e8c9f5" transform="scale(1.17)"><animateMotion dur="7.5s" begin="-5.6s" repeatCount="indefinite" rotate="auto" path="M600 -17 q -17 150 0 375"/></use></g>
+<g opacity="0.85"><use href="#petal" fill="#f2c6dc" transform="scale(1.18)"><animateMotion dur="9.1s" begin="-5.0s" repeatCount="indefinite" rotate="auto" path="M620 -17 q 47 150 0 373"/></use></g>
+</g>
+<text x="28" y="40" font-size="15" fill="#9b82c9" font-weight="600">✧ otaku corner</text>
+<text x="28" y="74" font-size="26" fill="#55406f" font-weight="800">オタク mode: <tspan fill="#b79ced">ON</tspan></text>
+<text x="28" y="98" font-size="12.5" fill="#8e8aa3">certified otaku · pipelines by day, “just one more episode” by night · sleep schedule: nonexistent</text>
+<g><rect x="28" y="122" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="44" y="146" font-size="11" fill="#b79ced" font-weight="700">01</text><text x="70" y="146" font-size="14" fill="#55406f" font-weight="600">Vinland Saga</text><text x="250" y="146" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.00s" fill="freeze"/></g>
+<g><rect x="278" y="122" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="294" y="146" font-size="11" fill="#b79ced" font-weight="700">02</text><text x="320" y="146" font-size="14" fill="#55406f" font-weight="600">Attack on Titan</text><text x="500" y="146" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.08s" fill="freeze"/></g>
+<g><rect x="528" y="122" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="544" y="146" font-size="11" fill="#b79ced" font-weight="700">03</text><text x="570" y="146" font-size="14" fill="#55406f" font-weight="600">FMA: Brotherhood</text><text x="750" y="146" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.16s" fill="freeze"/></g>
+<g><rect x="28" y="172" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="44" y="196" font-size="11" fill="#b79ced" font-weight="700">04</text><text x="70" y="196" font-size="14" fill="#55406f" font-weight="600">Steins;Gate</text><text x="250" y="196" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.24s" fill="freeze"/></g>
+<g><rect x="278" y="172" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="294" y="196" font-size="11" fill="#b79ced" font-weight="700">05</text><text x="320" y="196" font-size="14" fill="#55406f" font-weight="600">Death Note</text><text x="500" y="196" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.32s" fill="freeze"/></g>
+<g><rect x="528" y="172" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="544" y="196" font-size="11" fill="#b79ced" font-weight="700">06</text><text x="570" y="196" font-size="14" fill="#55406f" font-weight="600">Deadman Wonderland</text><text x="750" y="196" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.40s" fill="freeze"/></g>
+<g><rect x="28" y="222" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="44" y="246" font-size="11" fill="#b79ced" font-weight="700">07</text><text x="70" y="246" font-size="14" fill="#55406f" font-weight="600">Code Geass</text><text x="250" y="246" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.48s" fill="freeze"/></g>
+<g><rect x="278" y="222" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="294" y="246" font-size="11" fill="#b79ced" font-weight="700">08</text><text x="320" y="246" font-size="14" fill="#55406f" font-weight="600">One Piece</text><text x="500" y="246" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.56s" fill="freeze"/></g>
+<g><rect x="528" y="222" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="544" y="246" font-size="11" fill="#b79ced" font-weight="700">09</text><text x="570" y="246" font-size="14" fill="#55406f" font-weight="600">Naruto</text><text x="750" y="246" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.64s" fill="freeze"/></g>
+<g><rect x="28" y="272" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="44" y="296" font-size="11" fill="#b79ced" font-weight="700">10</text><text x="70" y="296" font-size="14" fill="#55406f" font-weight="600">Bleach</text><text x="250" y="296" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.72s" fill="freeze"/></g>
+<g><rect x="278" y="272" width="236" height="38" rx="10" fill="#f3eafc" stroke="#dcc5f2"/><text x="294" y="296" font-size="11" fill="#b79ced" font-weight="700">11</text><text x="320" y="296" font-size="14" fill="#55406f" font-weight="600">Fairy Tail</text><text x="500" y="296" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.80s" fill="freeze"/></g>
+<g><rect x="528" y="272" width="236" height="38" rx="10" fill="#efe4fb" stroke="#dcc5f2"/><text x="544" y="296" font-size="11" fill="#b79ced" font-weight="700">12</text><text x="570" y="296" font-size="14" fill="#55406f" font-weight="600">DBZ / DBS</text><text x="750" y="296" font-size="12" fill="#c9a7eb" text-anchor="end">★</text><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.88s" fill="freeze"/></g>
+<text x="28" y="350" font-size="12.5" fill="#74529b" font-weight="600">power level: over 9000 ✧ still waiting to find out what the One Piece is</text>
+<text x="28" y="372" font-size="11.5" fill="#8e8aa3">fillers skipped: some · tears shed: classified · recommendations: always open</text>
+</svg>

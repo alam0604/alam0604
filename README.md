@@ -117,6 +117,13 @@ but i still enjoy doing it ✧ <b>Accepted</b> just hits different after 6 Wrong
 </div>
 
 
+## 🌸 otaku corner
+
+<div align="center">
+<img src="assets/otaku-corner.svg" width="100%" alt="Otaku corner: favourite anime - Vinland Saga, Attack on Titan, Fullmetal Alchemist: Brotherhood, Steins;Gate, Death Note, Deadman Wonderland, Code Geass, One Piece, Naruto, Bleach, Fairy Tail, DBZ / DBS"/>
+</div>
+
+
 ## 🎧 on repeat
 
 <div align="center">
