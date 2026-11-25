@@ -24,8 +24,10 @@ QUERY = """query {
     media(type: ANIME, status: RELEASING, isAdult: false, sort: SCORE_DESC,
           format_in: [TV, TV_SHORT, ONA]) {
       title { english romaji }
-      averageScore popularity genres episodes nextAiringEpisode { episode }
+      averageScore popularity genres episodes nextAiringEpisode { episode airingAt }
       siteUrl season seasonYear
+      studios(isMain: true) { nodes { name } }
+      tags { name rank isMediaSpoiler isGeneralSpoiler }
       reviews(perPage: 1) { pageInfo { total } }
     }
   }
@@ -64,7 +66,7 @@ def clip(s, n):
 
 
 def draw(picks, week_label):
-    W, H = 800, 268
+    W, H = 800, 346
     medals = ["🥇", "🥈", "🥉"]
     fills = [L2, L1, L1]
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" {F} '
@@ -79,7 +81,7 @@ def draw(picks, week_label):
         d = 0.5 + i * 0.15  # staggered fade-in; cards stay visible where SVG animation isn't supported
         out.append(f'<g><animate attributeName="opacity" values="0;0;1" keyTimes="0;{i*0.15/d:.2f};1" '
                    f'dur="{d:.2f}s" fill="freeze"/>')
-        out.append(f'<rect x="{x}" y="{y}" width="{cw}" height="164" rx="12" fill="{fills[i]}" stroke="{STROKE}"/>')
+        out.append(f'<rect x="{x}" y="{y}" width="{cw}" height="242" rx="12" fill="{fills[i]}" stroke="{STROKE}"/>')
         out.append(t(x + 16, y + 30, medals[i], 20, TX))
         out.append(t(x + cw - 16, y + 30, f"★ {p['score'] / 10:.1f}", 18, DARK, 700, "end"))
         out.append(t(x + 16, y + 62, clip(p["name"], 24), 15.5, TX, 700))
@@ -90,10 +92,32 @@ def draw(picks, week_label):
         rv = f"{p['reviews']:,} reviews" if p["reviews"] else "too new for reviews"
         out.append(t(x + 16, y + 130, f"{p['fans']:,} fans · {rv}", 12, MUTED))
         out.append(t(x + 16, y + 150, p["ep"], 12, MUTED))
+        out.append(f'<line x1="{x+16}" y1="{y+166}" x2="{x+cw-16}" y2="{y+166}" stroke="{STROKE}"/>')
+        out.append(t(x + 16, y + 188, "🎬 " + clip(p.get("studio") or "studio unknown", 28), 12.5, TX, 600))
+        if p.get("tags"):
+            out.append(t(x + 16, y + 208, "✦ " + clip(", ".join(p["tags"]).lower(), 32), 12, DARK))
+        out.append(t(x + 16, y + 226, "📅 " + p.get("next", "airing weekly"), 12, DARK))
         out.append("</g>")
     out.append(t(28, H - 24, "✧ top-rated anime airing right now, by AniList user scores · refreshed every Monday", 12, MUTED))
     out.append("</svg>")
     return "".join(out)
+
+
+def tags_of(m, n=3):
+    # AniList tags describe the vibe (e.g. "pirates", "found family"); spoiler tags are skipped
+    tags = [tg for tg in (m.get("tags") or [])
+            if not tg.get("isMediaSpoiler") and not tg.get("isGeneralSpoiler") and (tg.get("rank") or 0) >= 60]
+    tags.sort(key=lambda tg: tg["rank"], reverse=True)
+    return [tg["name"] for tg in tags[:n]]
+
+
+def airs_on(m):
+    # weekly shows air on the same day each week, so this stays true all week
+    at = (m.get("nextAiringEpisode") or {}).get("airingAt")
+    if not at:
+        return "airing weekly"
+    ist = dt.datetime.fromtimestamp(at, dt.timezone(dt.timedelta(hours=5, minutes=30)))
+    return f"new ep every {ist:%A} · {ist:%I:%M %p}".replace(" 0", " ") + " IST"
 
 
 def main():
@@ -101,7 +125,8 @@ def main():
     year, week, _ = today.isocalendar()
     key = f"{year}-W{week:02d}"
     if os.path.exists(STATE) and os.path.exists(CARD) and "--force" not in sys.argv:
-        if json.load(open(STATE, encoding="utf-8")).get("week") == key:
+        state = json.load(open(STATE, encoding="utf-8"))
+        if state.get("week") == key and state.get("v") == 2:
             print("anime of the week already picked for", key)
             return
     try:
@@ -119,7 +144,9 @@ def main():
             ep += f" of {total}"
         picks.append({"name": m["title"]["english"] or m["title"]["romaji"], "score": m["averageScore"],
                       "fans": m["popularity"], "reviews": m["reviews"]["pageInfo"]["total"],
-                      "genres": m.get("genres") or [], "ep": ep, "url": m["siteUrl"]})
+                      "genres": m.get("genres") or [], "ep": ep, "url": m["siteUrl"],
+                      "studio": next(iter(n["name"] for n in (m.get("studios") or {}).get("nodes", [])), None),
+                      "tags": tags_of(m), "next": airs_on(m)})
     if not picks:
         print("no picks found, keeping the old card")
         return
@@ -127,7 +154,7 @@ def main():
     with open(CARD, "w", encoding="utf-8") as f:
         f.write(draw(picks, f"week of {monday.day} {monday:%b}"))
     with open(STATE, "w", encoding="utf-8") as f:
-        json.dump({"week": key, "picks": picks}, f, ensure_ascii=False, indent=2)
+        json.dump({"v": 2, "week": key, "picks": picks}, f, ensure_ascii=False, indent=2)
     print("anime of the week:", ", ".join(p["name"] for p in picks))
 
 
