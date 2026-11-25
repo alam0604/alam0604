@@ -110,6 +110,19 @@ COMMENT 'built with a little magic ✧';
 </div>
 
 
+## 🎧 on repeat
+
+<div align="center">
+
+<a href="https://www.youtube.com/embed/jB0-Ytbtcns?start=0&end=60&autoplay=1">
+  <img src="https://img.youtube.com/vi/jB0-Ytbtcns/hqdefault.jpg" width="320" alt="Play the first minute of the song on YouTube"/>
+</a>
+
+<sub>✧ tap to play the first minute ✧</sub>
+
+</div>
+
+
 ## 🐾 a tiny offline break
 
 <div align="center">
