@@ -107,7 +107,7 @@ COMMENT 'built with a little magic ✧';
 
 <p align="center"><i>
 i like solving dsa problems.. but am i good at it? maybe not that much 🙃<br/>
-my first idea is usually O(n³), my second idea is opening the editorial,<br/>
+my first idea is usually O(n³) or O(n⁴) at best, my second idea is opening the editorial,<br/>
 and my code passing 3/57 test cases still gets a small victory dance.<br/>
 but i still enjoy doing it ✧ <b>Accepted</b> just hits different after 6 Wrong Answers, 3 TLEs and 5 Runtime Errors
 </i></p>
