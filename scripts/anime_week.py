@@ -87,7 +87,8 @@ def draw(picks, week_label):
         # score bar
         out.append(f'<rect x="{x+16}" y="{y+100}" width="{cw-32}" height="7" rx="3.5" fill="#f7f0fd"/>')
         out.append(f'<rect x="{x+16}" y="{y+100}" width="{(cw-32)*p["score"]/100:.0f}" height="7" rx="3.5" fill="{L3}"/>')
-        out.append(t(x + 16, y + 130, f"{p['fans']:,} fans · {p['reviews']} reviews", 12, MUTED))
+        rv = f"{p['reviews']:,} reviews" if p["reviews"] else "too new for reviews"
+        out.append(t(x + 16, y + 130, f"{p['fans']:,} fans · {rv}", 12, MUTED))
         out.append(t(x + 16, y + 150, p["ep"], 12, MUTED))
         out.append("</g>")
     out.append(t(28, H - 24, "✧ top-rated anime airing right now, by AniList user scores · refreshed every Monday", 12, MUTED))
