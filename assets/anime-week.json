@@ -1,0 +1,49 @@
+{
+  "week": "2026-W48",
+  "picks": [
+    {
+      "name": "Black Clover Season 2",
+      "score": 88,
+      "fans": 113838,
+      "reviews": 0,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Fantasy"
+      ],
+      "ep": "episode 8 out",
+      "url": "https://anilist.co/anime/195604"
+    },
+    {
+      "name": "ONE PIECE",
+      "score": 87,
+      "fans": 772769,
+      "reviews": 500,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Comedy",
+        "Drama",
+        "Fantasy"
+      ],
+      "ep": "episode 1180 out",
+      "url": "https://anilist.co/anime/21"
+    },
+    {
+      "name": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
+      "score": 86,
+      "fans": 53900,
+      "reviews": 0,
+      "genres": [
+        "Action",
+        "Adventure",
+        "Drama",
+        "Mystery",
+        "Supernatural"
+      ],
+      "ep": "episode 9 out of 11",
+      "url": "https://anilist.co/anime/210482"
+    }
+  ]
+}
