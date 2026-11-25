@@ -124,6 +124,13 @@ but i still enjoy doing it ✧ <b>Accepted</b> just hits different after 6 Wrong
 </div>
 
 
+## 📺 anime of the week
+
+<div align="center">
+<img src="assets/anime-week.svg" width="100%" alt="Anime of the week: top-rated anime airing right now, picked from AniList scores"/>
+</div>
+
+
 ## 🎧 on repeat
 
 <div align="center">

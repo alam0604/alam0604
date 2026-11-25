@@ -1,4 +1,4 @@
-name: Update LeetCode card + themes
+name: Update LeetCode card, anime of the week + themes
 
 on:
   schedule:
@@ -31,6 +31,10 @@ jobs:
           LEETCODE_USERNAME: ${{ secrets.LEETCODE_USERNAME }}
         run: python scripts/leetcode_card.py
 
+      - name: Pick the anime of the week
+        if: github.event_name != 'push'
+        run: python scripts/anime_week.py
+
       - name: Rebuild the themes
         run: python scripts/build_themes.py
 
@@ -42,6 +46,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "Nothing changed."
           else
-            git commit -m "Update LeetCode card and themes"
+            git commit -m "Update LeetCode card, anime of the week and themes"
             git push
           fi
