@@ -114,6 +114,9 @@ COMMENT 'built with a little magic ✧';
 
 <div align="center">
 
+<img src="assets/on-repeat.svg" width="100%" alt="A lilac mini music player: now playing, my lilac playlist"/>
+<br/><br/>
+
 <a href="https://www.youtube.com/embed/jB0-Ytbtcns?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/jB0-Ytbtcns/mqdefault.jpg" width="110" alt="Play song 1: first minute on YouTube"/></a>
 <a href="https://www.youtube.com/embed/qbvAmlKhWQQ?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/qbvAmlKhWQQ/mqdefault.jpg" width="110" alt="Play song 2: first minute on YouTube"/></a>
 <a href="https://www.youtube.com/embed/5uEUPOCNazY?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/5uEUPOCNazY/mqdefault.jpg" width="110" alt="Play song 3: first minute on YouTube"/></a>
@@ -122,7 +125,9 @@ COMMENT 'built with a little magic ✧';
 <a href="https://www.youtube.com/embed/KDe7tK1i6nA?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/KDe7tK1i6nA/mqdefault.jpg" width="110" alt="Play song 6: first minute on YouTube"/></a>
 <a href="https://www.youtube.com/embed/rBiblCpTw7s?start=0&end=60&autoplay=1"><img src="https://img.youtube.com/vi/rBiblCpTw7s/mqdefault.jpg" width="110" alt="Play song 7: first minute on YouTube"/></a>
 
-<sub>✧ tap any song to play its first minute ✧</sub>
+<br/>
+
+![tap a cover](https://img.shields.io/badge/%E2%96%B6%20tap%20a%20cover-first%2060s%20on%20YouTube-C9A7EB?style=for-the-badge&labelColor=9B7BC7)
 
 </div>
 
