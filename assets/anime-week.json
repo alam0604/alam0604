@@ -1,4 +1,5 @@
 {
+  "v": 2,
   "week": "2026-W48",
   "picks": [
     {
@@ -13,7 +14,14 @@
         "Fantasy"
       ],
       "ep": "episode 8 out",
-      "url": "https://anilist.co/anime/195604"
+      "url": "https://anilist.co/anime/195604",
+      "studio": "Studio Pierrot",
+      "tags": [
+        "Magic",
+        "Male Protagonist",
+        "Shounen"
+      ],
+      "next": "new ep every Saturday · 7:30 PM IST"
     },
     {
       "name": "ONE PIECE",
@@ -28,7 +36,14 @@
         "Fantasy"
       ],
       "ep": "episode 1180 out",
-      "url": "https://anilist.co/anime/21"
+      "url": "https://anilist.co/anime/21",
+      "studio": "Toei Animation",
+      "tags": [
+        "Pirates",
+        "Travel",
+        "Shounen"
+      ],
+      "next": "new ep every Sunday · 7:46 PM IST"
     },
     {
       "name": "STEEL BALL RUN JoJo's Bizarre Adventure 2nd - 3rd STAGE",
@@ -43,7 +58,14 @@
         "Supernatural"
       ],
       "ep": "episode 9 out of 11",
-      "url": "https://anilist.co/anime/210482"
+      "url": "https://anilist.co/anime/210482",
+      "studio": "david production",
+      "tags": [
+        "Desert",
+        "Cowboys",
+        "Super Power"
+      ],
+      "next": "new ep every Friday · 1:30 PM IST"
     }
   ]
 }
