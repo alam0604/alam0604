@@ -19,7 +19,7 @@ STATE = "assets/anime-week.json"
 PICKS = 3
 MIN_POPULARITY = 15000  # people who added it to a list: filters out obscure shows with inflated scores
 
-QUERY = """query($season: MediaSeason, $year: Int) {
+QUERY = """query {
   Page(perPage: 50) {
     media(type: ANIME, status: RELEASING, isAdult: false, sort: SCORE_DESC,
           format_in: [TV, TV_SHORT, ONA]) {
@@ -106,7 +106,8 @@ def main():
     try:
         media = fetch()
     except Exception as e:  # keep the old card rather than failing the whole workflow
-        print("AniList unreachable, keeping the old card:", e)
+        body = e.read().decode(errors="replace")[:500] if hasattr(e, "read") else ""
+        print("AniList unreachable, keeping the old card:", e, body)
         return
     picks = []
     for m in choose(media):
